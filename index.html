@@ -1,66 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego del Caos - ADN en 3D</title>
-    <!-- Enlace al archivo CSS -->
-    <link rel="stylesheet" href="style.css">
+    <title>Cubo 3D con Three.js</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de que el archivo CSS esté enlazado -->
 </head>
-
 <body>
-    <h1>Juego del Caos - ADN en 3D</h1>
-    <input type="text" id="secuencia" placeholder="Ingresa la secuencia de ADN (A, T, C, G)">
-    <button onclick="graficaSecuencia()">Graficar Secuencia</button>
-    <p id="error" class="error"></p>
-
     <div id="canvas3D"></div>
+    <input type="text" id="secuencia" placeholder="Introduce la secuencia" />
+    <button id="graficar">Graficar</button>
+    <div id="error"></div>
 
-    <div class="info">
-        <p>
-            A: 'green' (esquina superior delantera derecha) <br>
-            T: 'red' (esquina inferior delantera derecha) <br>
-            C: 'blue' (esquina inferior trasera izquierda) <br>
-            G: 'orange' (esquina superior trasera derecha) <br>
-        </p>
-    </div>
-
-    <!-- Enlace al archivo JS principal -->
-    <script type="module" src="main.js"></script>
+    <!-- Importar Three.js y OrbitControls -->
+    <script type="module" src="main.mjs"></script> <!-- Asegúrate de que este archivo JS esté correctamente enlazado -->
 </body>
-
-</html>
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego del Caos - ADN en 3D</title>
-    <!-- Enlace al archivo CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h1>Juego del Caos - ADN en 3D</h1>
-    <input type="text" id="secuencia" placeholder="Ingresa la secuencia de ADN (A, T, C, G)">
-    <button onclick="graficaSecuencia()">Graficar Secuencia</button>
-    <p id="error" class="error"></p>
-
-    <div id="canvas3D"></div>
-
-    <div class="info">
-        <p>
-            A: 'green' (esquina superior delantera derecha) <br>
-            T: 'red' (esquina inferior delantera derecha) <br>
-            C: 'blue' (esquina inferior trasera izquierda) <br>
-            G: 'orange' (esquina superior trasera derecha) <br>
-        </p>
-    </div>
-
-    <!-- Enlace al archivo JS principal -->
-    <script type="module" src="main.js"></script>
-</body>
-
 </html>

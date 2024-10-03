@@ -1,0 +1,29 @@
+{
+  "name": "cubo3d",
+  "version": "1.0.0",
+  "description": "cubo3D",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilo-15/cubo3D.git"
+  },
+  "keywords": [
+    "12345"
+  ],
+  "author": "camilo anaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilo-15/cubo3D/issues"
+  },
+  "homepage": "https://github.com/camilo-15/cubo3D#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "three": "^0.169.0",
+    "three-orbitcontrols": "^2.110.2"
+  }
+}
